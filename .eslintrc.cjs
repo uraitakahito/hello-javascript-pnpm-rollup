@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+
 //
 // eslint-config-airbnb*
 //
@@ -59,6 +61,14 @@ module.exports = {
     'func-style': 'off',
     // https://eslint.org/docs/v8.x/rules/id-length
     'id-length': 'off',
+
+    //
+    // When importing ES modules without using a bundler or transpiler, file extensions are required:
+    //   https://nodejs.org/api/esm.html#esm_mandatory_file_extensions
+    //   https://github.com/import-js/eslint-plugin-import/blob/v2.17.2/docs/rules/extensions.md#examples
+    //
+    'import/extensions': ['error', 'always', { ignorePackages: true }],
+
     // https://eslint.org/docs/v8.x/rules/line-comment-position
     'line-comment-position': 'off',
     // https://eslint.org/docs/v8.x/rules/multiline-comment-style
