@@ -18,5 +18,10 @@
     "eslint-config-airbnb": "^19.0.4",
     "rollup": "^4.29.1",
     "rollup-plugin-commonjs": "^10.1.0"
+  },
+  "dependencies": {
+    "@uraitakahito/hello-commonjs": "^1.0.8",
+    "@uraitakahito/hello-conditional-exports": "^1.0.1",
+    "@uraitakahito/hello-esmodule": "^1.0.2"
   }
 }
