@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "rollup --config",
-    "start": "rollup --config --watch"
+    "watch": "rollup --config --watch",
+    "cleandep": "rm -rf node_modules"
   },
   "keywords": [],
   "author": "",
